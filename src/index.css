@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cardsFilter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cardsFilterIn{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  margin: 0 auto;
+  color: black;
+}
+
+.cardsFilterItems{
+  border: 1px black solid;
+  text-align: center;
+  border-radius: 0.4rem;
+  margin: 5px;
+  padding: 5px;
+}
+
+.cardsFilterButton{
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+  margin-left: 60px;
+  background-color: #282c34;
+  color: white;
+  border: 1px white solid;
+  border-radius: 0.4rem;
+  font-family: 'Merriweather', serif;
+}
+
+.cards{
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.cardTitle{
+  margin-bottom: 5px;
+}
+
+.cardSubTitle{
+  color:grey;
+  margin-top: 0px;
+}
+
+.admittedTitle{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.admitted{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 90px;
+}
+
+.column{
+  text-align: center;
+  width: min-content;
+}
+
+code {
+  font-family: 'Merriweather';
+}

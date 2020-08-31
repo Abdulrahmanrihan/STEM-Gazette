@@ -1,0 +1,23 @@
+.Footer{
+    display:flex;
+    flex-direction: row;
+    border-top: 1px solid;
+    border-color: lightgrey;
+    height: max-content;
+    padding: 10px;
+}
+
+.leftpart{
+    float: left;
+    width: 33%;
+}
+
+.rightpart{
+    width:33%;
+    float: right;
+}
+
+.iconSocial{
+    float: right;
+    margin:10px;
+}
